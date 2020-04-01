@@ -33,19 +33,6 @@ class Game
     else
       @player_2 = player_2
     end
-
-#    @board = Board.new
-#    if players[0] == "human"
-#      @player_1 = Players::Human.new("X")
-#    else
-#      @player_1 = Computer.new("X")
-#    end
-
-#    if players[1] == "human"
-#      @player_2 = Players::Human.new("O")
-#    else
-#      @player_2 = Computer.new("O")
-#    end
   end
 
   # can control gameplay, monitors game state and ends game (if over)
